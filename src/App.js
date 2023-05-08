@@ -3,6 +3,8 @@ import LineChart from "./LineChart";
 import LineChart1 from "./LineChart1";
 import LineChart2 from "./LineChart2";
 import LineChart3 from "./LineChart3";
+import LineChart4 from "./LineChart4";
+import LineChart5 from "./LineChart5";
 
 
 function App() {
@@ -28,6 +30,14 @@ function App() {
       <div style={{ width: 600, position: "absolute", marginLeft: "28%", marginTop: "90%" }}>
         <h2>Explicit Initialization of Variables to default values Optimizer</h2>
         <LineChart3 />
+      </div>
+      <div style={{ width: 600, position: "absolute", marginLeft: "28%", marginTop: "120%" }}>
+        <h2>Packing variables into a single block Optimizer</h2>
+        <LineChart4 />
+      </div>
+      <div style={{ width: 600, position: "absolute", marginLeft: "28%", marginTop: "150%" }}>
+        <h2>Unsigned Integer Types Optimizer</h2>
+        <LineChart5 />
       </div>
     </>
   );
