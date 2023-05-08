@@ -20,7 +20,7 @@ function App() {
         <LineChart />
       </div>
       <div style={{ width: 600, position: "absolute", marginLeft: "28%", marginTop: "30%" }}>
-        <h2>Increment Optimizer</h2>
+        <h2>Increment/Decrement Optimizer</h2>
         <LineChart1 />
       </div>
       <div style={{ width: 600, position: "absolute", marginLeft: "28%", marginTop: "60%" }}>
